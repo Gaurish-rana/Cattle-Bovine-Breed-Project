@@ -276,7 +276,8 @@ export const mockBreedData: BreedData[] = [
   }
 ];
 
-export const API_BASE_URL = (import.meta as any).env?.VITE_API_BASE_URL || 'http://localhost:5000';
+export const API_BASE_URL = (import.meta as any).env?.VITE_API_BASE_URL || 
+  (typeof window !== 'undefined' && window.location.hostname !== 'localhost' ? '/api' : 'http://localhost:5000/api');
 
 export const getBreedById = (id: string): BreedData | undefined => {
   return mockBreedData.find(breed => breed.id.toLowerCase() === id.toLowerCase());

@@ -474,6 +474,7 @@ def handle_file_too_large(e):
 
 
 @app.route("/health", methods=["GET"])
+@app.route("/api/health", methods=["GET"])
 def health_check():
     """Health check and model status inspection endpoint."""
     return jsonify({
@@ -487,6 +488,7 @@ def health_check():
 
 
 @app.route("/breeds", methods=["GET"])
+@app.route("/api/breeds", methods=["GET"])
 def get_breeds():
     """Return all 17 supported breeds with ICAR-NBAGR verified metadata."""
     if not MODEL_STATE["loaded"]:
@@ -518,6 +520,7 @@ def get_breeds():
 
 
 @app.route("/predict", methods=["POST"])
+@app.route("/api/predict", methods=["POST"])
 def predict_breed():
     """Predict breed from uploaded multipart image file."""
     if not MODEL_STATE["loaded"]:
