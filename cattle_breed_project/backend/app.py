@@ -596,5 +596,6 @@ def predict_breed_base64():
 load_model_singleton()
 
 if __name__ == "__main__":
-    logger.info("Starting CattleSense Flask Service...")
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    port = int(os.environ.get("PORT", 5000))
+    logger.info(f"Starting CattleSense Flask Service on port {port}...")
+    app.run(host="0.0.0.0", port=port, debug=False)
