@@ -1,0 +1,21 @@
+{
+  "architecture": "Swin-T",
+  "num_classes": 17,
+  "seed": 42,
+  "batch_size": 32,
+  "warmup_epochs": 2,
+  "finetune_epochs": 8,
+  "warmup_lr": 0.001,
+  "backbone_lr": 3e-05,
+  "head_lr": 0.0003,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.1,
+  "dropout_rate": 0.3,
+  "img_size": 224,
+  "train_samples": 1278,
+  "val_samples": 271,
+  "total_training_time_minutes": 28.4,
+  "best_epoch": 7,
+  "best_val_f1": 0.6732,
+  "best_val_acc": 0.6937
+}

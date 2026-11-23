@@ -1,0 +1,19 @@
+{
+  "species_stage1": {
+    "val_acc": 0.9557,
+    "val_macro_f1": 0.9556,
+    "species_errors": 12
+  },
+  "stage2_specialists": {
+    "cattle_8_classes_macro_f1": 0.6533,
+    "buffalo_9_classes_macro_f1": 0.5503
+  },
+  "end_to_end_17_classes": {
+    "hard_routing_val_acc": 0.5793,
+    "hard_routing_val_macro_f1": 0.5479,
+    "hard_routing_val_weighted_f1": 0.5675,
+    "soft_joint_val_acc": 0.5793,
+    "soft_joint_val_macro_f1": 0.5482,
+    "soft_joint_val_weighted_f1": 0.5678
+  }
+}

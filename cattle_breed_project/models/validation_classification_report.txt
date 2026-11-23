@@ -1,0 +1,27 @@
+Validation Classification Report - Epoch 14
+Best Val Accuracy: 0.6421
+Best Val Macro F1: 0.6233
+
+               precision    recall  f1-score   support
+
+   amritmahal     0.6000    0.4286    0.5000         7
+        banni     0.3889    0.4667    0.4242        15
+       bargur     0.8667    0.9286    0.8966        14
+    bhadawari     0.5000    0.6364    0.5600        11
+          gir     0.9048    0.7308    0.8085        26
+     hallikar     0.4444    0.4000    0.4211        10
+  jaffarabadi     0.8000    0.5714    0.6667        14
+      kankrej     0.7333    0.8462    0.7857        13
+krishnavalley     0.5357    0.7500    0.6250        20
+      mehsana     0.3750    0.2500    0.3000        12
+       murrah     0.5200    0.5909    0.5532        22
+      nagpuri     0.5625    0.3462    0.4286        26
+     niliravi     0.6364    0.5385    0.5833        13
+       nimari     0.6429    0.6923    0.6667        13
+       ongole     0.9375    0.8824    0.9091        17
+         toda     0.5652    0.7647    0.6500        17
+       vechur     0.7826    0.8571    0.8182        21
+
+     accuracy                         0.6421       271
+    macro avg     0.6351    0.6283    0.6233       271
+ weighted avg     0.6504    0.6421    0.6373       271

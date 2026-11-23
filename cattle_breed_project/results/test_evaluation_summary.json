@@ -1,0 +1,158 @@
+{
+  "model_architecture": "ConvNeXt-Tiny",
+  "dataset_split": "annotations/test.csv (strictly untouched holdout)",
+  "total_test_samples": 271,
+  "overall_metrics": {
+    "accuracy": 0.7343,
+    "macro_precision": 0.7394,
+    "macro_recall": 0.7367,
+    "macro_f1": 0.724,
+    "weighted_f1": 0.7276
+  },
+  "baseline_efficientnet_metrics": {
+    "accuracy": 0.7085,
+    "macro_precision": 0.7192,
+    "macro_recall": 0.7288,
+    "macro_f1": 0.7121,
+    "weighted_f1": 0.709
+  },
+  "per_class_metrics": {
+    "amritmahal": {
+      "precision": 0.5,
+      "recall": 0.42857142857142855,
+      "f1_score": 0.46153846153846156
+    },
+    "banni": {
+      "precision": 0.5294117647058824,
+      "recall": 0.6,
+      "f1_score": 0.5625
+    },
+    "bargur": {
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1_score": 0.9655172413793104
+    },
+    "bhadawari": {
+      "precision": 0.5333333333333333,
+      "recall": 0.7272727272727273,
+      "f1_score": 0.6153846153846154
+    },
+    "gir": {
+      "precision": 0.8260869565217391,
+      "recall": 0.7307692307692307,
+      "f1_score": 0.7755102040816326
+    },
+    "hallikar": {
+      "precision": 0.6923076923076923,
+      "recall": 0.9,
+      "f1_score": 0.782608695652174
+    },
+    "jaffarabadi": {
+      "precision": 0.8235294117647058,
+      "recall": 1.0,
+      "f1_score": 0.9032258064516129
+    },
+    "kankrej": {
+      "precision": 0.8333333333333334,
+      "recall": 0.7692307692307693,
+      "f1_score": 0.8
+    },
+    "krishnavalley": {
+      "precision": 0.625,
+      "recall": 1.0,
+      "f1_score": 0.7692307692307693
+    },
+    "mehsana": {
+      "precision": 0.7272727272727273,
+      "recall": 0.6666666666666666,
+      "f1_score": 0.6956521739130435
+    },
+    "murrah": {
+      "precision": 0.5833333333333334,
+      "recall": 0.6363636363636364,
+      "f1_score": 0.6086956521739131
+    },
+    "nagpuri": {
+      "precision": 0.8333333333333334,
+      "recall": 0.38461538461538464,
+      "f1_score": 0.5263157894736842
+    },
+    "niliravi": {
+      "precision": 0.75,
+      "recall": 0.46153846153846156,
+      "f1_score": 0.5714285714285714
+    },
+    "nimari": {
+      "precision": 0.8181818181818182,
+      "recall": 0.6923076923076923,
+      "f1_score": 0.75
+    },
+    "ongole": {
+      "precision": 0.9375,
+      "recall": 0.8823529411764706,
+      "f1_score": 0.9090909090909091
+    },
+    "toda": {
+      "precision": 0.6818181818181818,
+      "recall": 0.8823529411764706,
+      "f1_score": 0.7692307692307693
+    },
+    "vechur": {
+      "precision": 0.9411764705882353,
+      "recall": 0.7619047619047619,
+      "f1_score": 0.8421052631578947
+    }
+  },
+  "top_confusion_pairs": [
+    {
+      "true_breed": "nagpuri",
+      "pred_breed": "toda",
+      "count": 7
+    },
+    {
+      "true_breed": "gir",
+      "pred_breed": "krishnavalley",
+      "count": 6
+    },
+    {
+      "true_breed": "murrah",
+      "pred_breed": "banni",
+      "count": 4
+    },
+    {
+      "true_breed": "banni",
+      "pred_breed": "murrah",
+      "count": 3
+    },
+    {
+      "true_breed": "nagpuri",
+      "pred_breed": "bhadawari",
+      "count": 3
+    },
+    {
+      "true_breed": "kankrej",
+      "pred_breed": "krishnavalley",
+      "count": 2
+    },
+    {
+      "true_breed": "niliravi",
+      "pred_breed": "murrah",
+      "count": 2
+    },
+    {
+      "true_breed": "vechur",
+      "pred_breed": "gir",
+      "count": 2
+    },
+    {
+      "true_breed": "ongole",
+      "pred_breed": "hallikar",
+      "count": 2
+    },
+    {
+      "true_breed": "mehsana",
+      "pred_breed": "murrah",
+      "count": 2
+    }
+  ]
+}

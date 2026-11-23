@@ -1,0 +1,18 @@
+{
+  "architecture": "EfficientNet-B2",
+  "num_classes": 17,
+  "seed": 42,
+  "batch_size": 32,
+  "warmup_epochs": 3,
+  "finetune_epochs": 12,
+  "warmup_lr": 0.001,
+  "backbone_lr": 0.0001,
+  "head_lr": 0.0005,
+  "weight_decay": 0.0001,
+  "label_smoothing": 0.1,
+  "early_stopping_patience": 5,
+  "dropout_rate": 0.3,
+  "img_size": 224,
+  "train_samples": 1278,
+  "val_samples": 271
+}

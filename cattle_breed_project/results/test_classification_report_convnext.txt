@@ -1,0 +1,30 @@
+ConvNeXt-Tiny Test Classification Report (Untouched Test Set)
+Test Accuracy:     0.7343
+Macro Precision:   0.7394
+Macro Recall:      0.7367
+Macro F1-Score:    0.7240
+Weighted F1-Score: 0.7276
+
+               precision    recall  f1-score   support
+
+   amritmahal     0.5000    0.4286    0.4615         7
+        banni     0.5294    0.6000    0.5625        15
+       bargur     0.9333    1.0000    0.9655        14
+    bhadawari     0.5333    0.7273    0.6154        11
+          gir     0.8261    0.7308    0.7755        26
+     hallikar     0.6923    0.9000    0.7826        10
+  jaffarabadi     0.8235    1.0000    0.9032        14
+      kankrej     0.8333    0.7692    0.8000        13
+krishnavalley     0.6250    1.0000    0.7692        20
+      mehsana     0.7273    0.6667    0.6957        12
+       murrah     0.5833    0.6364    0.6087        22
+      nagpuri     0.8333    0.3846    0.5263        26
+     niliravi     0.7500    0.4615    0.5714        13
+       nimari     0.8182    0.6923    0.7500        13
+       ongole     0.9375    0.8824    0.9091        17
+         toda     0.6818    0.8824    0.7692        17
+       vechur     0.9412    0.7619    0.8421        21
+
+     accuracy                         0.7343       271
+    macro avg     0.7394    0.7367    0.7240       271
+ weighted avg     0.7548    0.7343    0.7276       271

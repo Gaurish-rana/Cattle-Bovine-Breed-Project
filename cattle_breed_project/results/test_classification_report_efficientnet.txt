@@ -1,0 +1,30 @@
+EfficientNet-B2 Test Classification Report (Untouched Test Set)
+Test Accuracy:     0.7085
+Macro Precision:   0.7192
+Macro Recall:      0.7288
+Macro F1-Score:    0.7121
+Weighted F1-Score: 0.7090
+
+               precision    recall  f1-score   support
+
+   amritmahal     0.5455    0.8571    0.6667         7
+        banni     0.4667    0.4667    0.4667        15
+       bargur     0.8125    0.9286    0.8667        14
+    bhadawari     0.4500    0.8182    0.5806        11
+          gir     0.7917    0.7308    0.7600        26
+     hallikar     0.5833    0.7000    0.6364        10
+  jaffarabadi     0.7500    0.8571    0.8000        14
+      kankrej     0.9231    0.9231    0.9231        13
+krishnavalley     0.6818    0.7500    0.7143        20
+      mehsana     0.8182    0.7500    0.7826        12
+       murrah     0.5000    0.5000    0.5000        22
+      nagpuri     0.7368    0.5385    0.6222        26
+     niliravi     0.8571    0.4615    0.6000        13
+       nimari     0.8000    0.9231    0.8571        13
+       ongole     0.8667    0.7647    0.8125        17
+         toda     0.7059    0.7059    0.7059        17
+       vechur     0.9375    0.7143    0.8108        21
+
+     accuracy                         0.7085       271
+    macro avg     0.7192    0.7288    0.7121       271
+ weighted avg     0.7293    0.7085    0.7090       271
